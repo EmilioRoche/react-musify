@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/react-musify/static/css/main.073c9b0a.css",
-    "main.js": "/react-musify/static/js/main.76296091.js",
-    "static/js/787.600d5a50.chunk.js": "/react-musify/static/js/787.600d5a50.chunk.js",
-    "static/media/logo.svg": "/react-musify/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react-musify/static/css/main.e7720ab7.css",
+    "main.js": "/react-musify/static/js/main.9ee1d464.js",
     "index.html": "/react-musify/index.html",
-    "main.073c9b0a.css.map": "/react-musify/static/css/main.073c9b0a.css.map",
-    "main.76296091.js.map": "/react-musify/static/js/main.76296091.js.map",
-    "787.600d5a50.chunk.js.map": "/react-musify/static/js/787.600d5a50.chunk.js.map"
+    "main.e7720ab7.css.map": "/react-musify/static/css/main.e7720ab7.css.map",
+    "main.9ee1d464.js.map": "/react-musify/static/js/main.9ee1d464.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.76296091.js"
+    "static/css/main.e7720ab7.css",
+    "static/js/main.9ee1d464.js"
   ]
 }
