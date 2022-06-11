@@ -27,7 +27,7 @@ jobs:
           npm run-script build
         env:
           SPOTIFY_CLIENT_KEY: ${{ secrets.SPOTIFY_CLIENT_KEY }}
-          SPOTIFY_SECRET_KET: ${{ secrets.SPOTIFY_SECRET_KEY }}
+          SPOTIFY_SECRET_KEY: ${{ secrets.SPOTIFY_SECRET_KEY }}
       
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
