@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Login from './login';
+import Login from './Login';
 
 function App() {
   return <Login />
