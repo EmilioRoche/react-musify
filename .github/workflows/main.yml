@@ -30,7 +30,7 @@ jobs:
           SPOTIFY_SECRET_KET: ${{ secrets.SPOTIFY_SECRET_KEY }}
       
       - name: Deploy
-        uses: EmilioRoche/github-pages-deploy-action@releases/v3
+        uses: EmilioRoche/react-musify@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
