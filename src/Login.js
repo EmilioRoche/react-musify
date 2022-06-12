@@ -8,7 +8,6 @@ const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=${client_id}
 &redirect_uri=https://emilioroche.github.io/react-musify/
 &scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify`;
 
-console.log(client_id);
 export default function Login() {
     return ( 
     <Container 
