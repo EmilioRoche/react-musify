@@ -1,7 +1,7 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
 
-const client_id = process.env.SPOTIFY_CLIENT_KEY;
+const client_id = process.env.REACT_APP_CLIENT_KEY;
 
 const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=${client_id}
 &response_type=code
