@@ -1,7 +1,9 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
 
-const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=b63b85c119f74bec909ed2e04dcd6765
+const client_id = process.env.SPOTIFY_CLIENT_KEY;
+
+const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=${client_id}
 &response_type=code
 &redirect_uri=https://emilioroche.github.io/react-musify/
 &scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify`;
