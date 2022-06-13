@@ -17,14 +17,14 @@ export default function Login() {
     className="d-flex justify-content-center align-items-center"
     style={{ minHeight: `100vh`}}
     >
-        <Link to="/login">
+        <Link to="/musify/login">
         <a className="btn btn-success btn-lg" href={AUTH_URL}>
             login with Spotify
         </a>
         </Link>
     </Container>
         <Routes>
-            <Route exact path="/login"></Route>
+            <Route exact path="/musify/login"></Route>
         </Routes>
     </Router> 
     );
