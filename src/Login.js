@@ -16,9 +16,9 @@ export default function Login() {
     style={{ minHeight: `100vh`}}
     >   render() {
         <Link to="/api/v1/login">
-        <Button as="a" className="btn btn-success btn-lg" href={AUTH_URL}>
+        <a className="btn btn-success btn-lg" href={AUTH_URL}>
             login with Spotify
-        </Button>
+        </a>
         </Link>
         }
         
