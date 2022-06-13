@@ -14,12 +14,14 @@ export default function Login() {
         <Container 
     className="d-flex justify-content-center align-items-center"
     style={{ minHeight: `100vh`}}
-    >
+    >   render() {
         <Link to="/api/v1/login">
-        <a className="btn btn-success btn-lg" href={AUTH_URL}>
+        <Button as="a" className="btn btn-success btn-lg" href={AUTH_URL}>
             login with Spotify
-        </a>
+        </Button>
         </Link>
+        }
+        
     </Container>
         <Routes>
             <Route exact path="/api/v1/login"></Route>
