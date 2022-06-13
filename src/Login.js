@@ -15,7 +15,7 @@ export default function Login() {
     className="d-flex justify-content-center align-items-center"
     style={{ minHeight: `100vh`}}
     >
-        <Link to="/api/v1/login">
+        <Link to="/api/v1/login" onClick={window.location.reload()}>
         <a className="btn btn-success btn-lg" href={AUTH_URL}>
             login with Spotify
         </a>
