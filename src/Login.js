@@ -14,13 +14,12 @@ export default function Login() {
         <Container 
     className="d-flex justify-content-center align-items-center"
     style={{ minHeight: `100vh`}}
-    >   render() {
-        <Link to="/api/v1/login">
-        <a className="btn btn-success btn-lg" href={AUTH_URL}>
+    >
+        <Link to="https://musify-backend-api.herokuapp.com/api/v1/login">
+        <a className="btn btn-success btn-lg">
             login with Spotify
         </a>
         </Link>
-        }
         
     </Container>
         <Routes>
