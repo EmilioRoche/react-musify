@@ -1,6 +1,6 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import Route from "react-router-dom";
+import BrowserRouter from "react-router-dom";
 
 const client_id = process.env.REACT_APP_CLIENT_KEY;
 
