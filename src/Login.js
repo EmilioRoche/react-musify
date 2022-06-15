@@ -19,7 +19,7 @@ export default function Login() {
         
     </Container>
         <Routes>
-            <Route exact path="/api/v1/login"></Route>
+            <Route exact path="/musify/v1/login"></Route>
         </Routes>
     </Router> 
     );
