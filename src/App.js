@@ -5,7 +5,7 @@ import Dash from './Dash';
 const urlParam = new URLSearchParams(window.location.search).get("urlParam")
 
 function App() {
-  return code ? <Dash urlParam={urlParam}/> : <Login/>
+  return urlParam ? <Dash urlParam={urlParam}/> : <Login/>
 }
 
 export default App;
