@@ -1,11 +1,24 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Login from './Login';
 import Dash from './Dash';
+import React from 'react';
+import { Route } from 'react-router-dom';
 
-const urlParam = new URLSearchParams(window.location.search).get("urlParam")
+class App extends React.Component {
 
-function App() {
-  return urlParam ? <Dash urlParam={urlParam}/> : <Login/>
+  componentWillMount(){
+    //lifecycle hook before rendering (API call) https://www.pluralsight.com/guides/how-to-use-componentwillmount
+    if(localStorage.getItem('jwt')) {
+      this.props.currentUser()
+    }
+  }
+
+  render() {
+    return (
+      <Login/>
+    )
+  }
 }
 
 export default App;
+
